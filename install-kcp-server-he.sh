@@ -258,7 +258,7 @@ function fun_download_file(){
 #        echo "md5sum not match,Failed to download kcp-server file!"
 #        exit 1
 #    fi
-#    [ ! -x ${str_program_dir}/kcp-server ] && chmod 755 ${str_program_dir}/kcp-server
+    [ ! -x ${str_program_dir}/kcp-server ] && chmod 755 ${str_program_dir}/kcp-server
 }
 # ====== pre_install ======
 function pre_install_clang(){
